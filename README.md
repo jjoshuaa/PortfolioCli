@@ -1,6 +1,6 @@
 # PortfolioCli
 
-<p align="center"><img src="https://raw.githubusercontent.com/jjoshuaa/PortfolioCli/main/CliInUse.png" width="700"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/jjoshuaa/PortfolioCli/main/CliInUse.png" width="1000"></p>
 
 ## Usage
 ```sh
