@@ -1,0 +1,21 @@
+{
+  "name": "portfoliocli",
+  "version": "1.0.0",
+  "description": "My personal cli",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "portfolio",
+    "personal"
+  ],
+  "author": "jjoshuaa",
+  "license": "MIT",
+  "dependencies": {
+    "ink": "^3.2.0",
+    "react": "^17.0.2"
+  }
+}
