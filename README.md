@@ -4,7 +4,7 @@
 
 ## Usage
 ```sh
-
+npx @joshuatmb/cli
 ```
 
 ## Inspired by 
