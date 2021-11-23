@@ -2,6 +2,12 @@
 
 <p align="center"><img src="https://raw.githubusercontent.com/jjoshuaa/PortfolioCli/main/CliInUse.png" width="1000"></p>
 
+## NPM STATUS
+Bug Fixes Required. Unoperational
+
+# LOCAL RUN STATUS
+Operational , it will work if you download the source and run it locally on your machine
+
 ## Usage
 ```sh
 npx @joshuatmb/cli
@@ -24,10 +30,5 @@ npx @joshuatmb/cli
 
 MIT 
 
-## p.s you might want to add a [shebang line](https://www.google.com/search?hl=en&q=what%20is%20the%20importance%20of%20a%20shebang%20line) to the top of the cli.js source 
 
-## NPM STATUS
-Bug Fixes Required. Unoperational
 
-# LOCAL RUN STATUS
-Operational , it will work if you download the source and run it locally on your machine
