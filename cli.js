@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import React from 'react'
 const { render, Box, Text } = require("ink");
 const BigText = require("ink-big-text");
