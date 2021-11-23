@@ -1,11 +1,16 @@
 {
-  "name": "portfoliocli",
-  "version": "1.0.0",
+  "name": "@joshuatmb/cli",
+  "version": "1.0.6",
   "description": "My personal cli",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "myapp": "cli.js"
+  },
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files"
   },
   "keywords": [
     "cli",
@@ -16,6 +21,34 @@
   "license": "MIT",
   "dependencies": {
     "ink": "^3.2.0",
+    "ink-big-text": "^1.2.0",
+    "ink-gradient": "^2.0.0",
+    "ink-select-input": "^4.2.1",
+    "open": "^8.4.0",
     "react": "^17.0.2"
-  }
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/register": "^7.16.0"
+  },
+  "presets": [
+    [
+     "@babel/env",
+      {
+       "targets": {
+       "edge": "17",
+       "firefox": "60",
+       "chrome": "67",
+       "safari": "11.1"
+        },
+     "useBuiltIns": "usage",
+     "corejs": "3.6.5"
+      }
+  ],
+     "@babel/preset-react"
+  ]
+  
 }
